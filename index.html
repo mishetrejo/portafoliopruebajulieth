@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Julieth</title>
+ 
+</head>
+
+<style>
+    
+    body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+header img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffeb3b;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.hero h1 {
+    font-size: 36px;
+    color: #007bff;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.projects li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.reviews {
+    margin: 30px 0;
+}
+.review-boxes {
+    display: flex;
+    gap: 20px;
+}
+.review {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="img/https://github.com/Ashle2202/imagenes/blob/main/user-crown.png?raw=true" alt="">
+                <span>Julieth</span>
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="sobre_mi.html">Sobre mí</a>
+                <a href="contacto.html">contacto</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Diseñadora y Desarrolladora Web</h1>
+            <p>Apasionada por la creatividad, la organización y la innovación en la web.</p>
+        </section>
+
+        <div class="grid-container">
+            <div class="box">
+                <h3>Proyectos</h3>
+                <ul class="projects">
+                    <li>Portafolio Personal</li>
+                    <li>Calculadora Interactiva</li>
+                    <li>Aplicación de Trivia</li>
+                    <li>Temporizador de Cuenta Regresiva</li>
+                    <li>Página de Productos</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Experiencia</h3>
+                <p><strong>Proyectos Personales</strong><br> Desarrollo de interfaces web modernas y funcionales.</p>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Diseño Web</li>
+                    <li>Creatividad y solución de problemas</li>
+                    <li>Organización y planificación</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Educación</h3>
+                <p>Interés por la programación, el diseño y el dibujo.</p>
+                <h4>Cursos y conocimientos:</h4>
+                <ul>
+                    <li>Programación en JavaScript</li>
+                    <li>Diseño de Interfaces</li>
+                    <li>Ingles con segunda lengua</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="reviews">
+            <h3>Opiniones sobre mí</h3>
+            <div class="review-boxes">
+                <div class="review">
+                    <p>Julieth es organizada, creativa y con un gran compromiso por lo que hace.</p>
+                    <p><strong>Maggy Sevilla</strong><br> Amiga y compañera</p>
+                </div>
+                <div class="review">
+                    <p>Es leal, amorosa y siempre busca aprender más.</p>
+                    <p><strong>Waleska Banegadas </strong><br> Familia </p>
+                </div>
+                <div class="review">
+                    <p>Tiene un buen corazón.</p>
+                    <p><strong>Jose Carmelo</strong><br>Conocido</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Julieth - Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
